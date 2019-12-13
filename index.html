@@ -1,0 +1,37 @@
+<!DOCTYPE html><html>
+<head>
+    <script src="p5.min.js"></script>
+	<script src="p5.dom.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+	<script src="src/Runtime.js"></script>
+	<div id="turn">
+        <img src="orientation.png">
+     </div>
+	
+	 <div id="container">
+	 	<canvas id="MMFCanvas" width="720" height="1280"></canvas>
+     </div>
+
+				<script>	
+ 
+        // RUNTIMESTART
+        // This is where the HTML5 runtime is actually started
+	    window.addEventListener("load", windowLoaded, false);
+	    function windowLoaded()
+	    {
+		    // Calls the runtime
+		    // First parameter : name of the canvas element
+		    // Second parameter : path to the cch file. Images and sounds must lay beside this file
+new Runtime("MMFCanvas", "resources/p55.cch");
+	    }
+        // RUNTIMESTARTEND
+						</script>	
+
+  
+
+</body></html>

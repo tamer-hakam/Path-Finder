@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/*canvas {
+  display: block;
+}*/
+@media only screen and (orientation:landscape){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
