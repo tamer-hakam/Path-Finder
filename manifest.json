@@ -1,7 +1,7 @@
 {
 "name":"English Online",
 "short_name": "EngOnline",
-"start_url":"/index.html",
+"start_url":"https://raw.githubusercontent.com/tamer-hakam/Path-Finder/master/icons/192.png",
 "display":"standalone",
 "background_color":"#FFE9D2",
 "theme_color":"#FFE1C4",
