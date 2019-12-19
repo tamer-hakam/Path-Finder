@@ -1,6 +1,6 @@
 var mcanvas;
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('https://github.com/tamer-hakam/Path-Finder/blob/master/sw.js')
+  navigator.serviceWorker.register('https://github.com/tamer-hakam/Path-Finder/master/sw.js')
     .then(reg => console.log('service worker registered', reg))
     .catch(err => console.log('service worker not registered', err));
 }
