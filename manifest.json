@@ -1,7 +1,7 @@
 {
 "name":"English Online",
 "short_name": "EngOnline",
-"start_url":"https://github.com/tamer-hakam/Path-Finder/blob/master/index.html",
+"start_url":"https://github.com/tamer-hakam/Path-Finder/index.html",
 "display":"standalone",
 "background_color":"#FFE9D2",
 "theme_color":"#FFE1C4",
